@@ -1,0 +1,83 @@
+
+body{
+	background-color: #12152e;
+}
+.TitleText{
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-size: 25px;
+	width:100%;
+	text-align:center;
+	padding-top: 25px;
+	
+}
+.SearchBarContainer{
+	width:100%;
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-size: 15px;
+	margin: auto;
+	width: 50%;
+	text-align:center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.SearchBar{
+	width:100%;
+	color:gray;
+	background-color: white;
+	border-radius: 25px 0 0 25px;
+	border:12px;
+	outline-width: 0;
+	padding-left:10px;
+}
+.SearchBarContainer_margin{
+	margin:auto;
+	display:flex;
+}
+.SearchBar_Button{
+	width:40%;
+	color:white;
+	background-color: gray;
+	border-radius:0 25px 25px 0;
+	border:12px;
+}
+.SearchBar_Button:hover{
+	background-color: #343a40;
+}
+.WeatherContainer{
+	width:30%;
+	margin:auto;
+	padding-top:75px;
+	text-align:left;
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+    flex-direction: column;
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-size: 15px;
+}
+.WeatherLabel{
+	width:100%;
+	margin-left:auto;
+	padding:10px;
+}
+td{
+	border-bottom:1px solid white;
+	
+}
+.WeatherTextIconContener{
+	display:flex;
+	align-items: center;
+}
+#icon{
+	height:64px;
+	width:64px;
+}
